@@ -1,4 +1,6 @@
-
+html{
+    background-color: #f0f3faee;
+}
 .raleway-font-design {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -100,4 +102,41 @@ main{
     display:flex;
     justify-content: space-around;
     align-items:center;     
+}
+.section-title{
+    text-align: center;
+}
+.card{
+  display: flex;
+  gap: 20px;
+ 
+}
+
+.card-design{
+    background-color:  #ecedf1ee;
+    padding: 25px;
+}
+.section-title{
+    margin-top:137px ;
+}
+.review{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    
+}
+.rev-img-design{
+    border-radius: 999px;
+    height: 40px;
+    width: 40px;
+}
+.review-h{
+    color:rgba(128, 128, 128, 0.824);
+    font-size:medium;
+    font-weight: bold;
+}
+.review-p{
+    color:rgba(128, 128, 128, 0.824);
+    font-size:medium;
+    font-weight: normal;
 }
