@@ -4,10 +4,17 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.header{
+    max-width: 1440px;
+    margin: 116px 14px 0;
+    padding:0 138px 200px;
+    background-image:url(../images/Hero-bg.png);
+}
 nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .nav-h1{
     color:#4E47FF;
@@ -23,4 +30,12 @@ button{
     padding: 12px 36px;
     border-radius:10px;
     border-style: none;
+}
+.banner-description{
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner-div{
+    margin-top: 158px;
+    text-align:center;
 }
