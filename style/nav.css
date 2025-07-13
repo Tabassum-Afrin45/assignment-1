@@ -30,7 +30,7 @@ nav{
     font-size:34px;
     font-weight:900px;
 }
-button{
+.butn{
 
     background-color:#4E47FF;
     color:white;
@@ -55,11 +55,15 @@ main{
 .action{
     display:flex;
     gap: 220px;
-    align-items: center;
+    align-items: center; 
 }
-.section-title{
+.div-design{
+   padding:62.5px;
+}
+.a-section-title{
     font-weight: bold;
     font-size: 42px;
+    text-align: left;
 }
 .section-description{
     font-weight: normal;
@@ -72,16 +76,14 @@ main{
     width: 403px;
     height: 328px;
 }
-.div-design{
-   padding:62.5px;
-}
+
 .P-users{
     text-align: center;
     background-color: #4d47ff12;
     padding: 50px 80px;
     
 }
-.section-title{
+.P-section-title{
     color: #252432;
     font-size: 38px;
     font-weight: bold;
@@ -103,9 +105,6 @@ main{
     justify-content: space-around;
     align-items:center;     
 }
-.section-title{
-    text-align: center;
-}
 .card{
   display: flex;
   gap: 20px;
@@ -113,11 +112,15 @@ main{
 }
 
 .card-design{
-    background-color:  #ecedf1ee;
+    background-color:  white;
     padding: 25px;
+    border-radius: 14px;
 }
-.section-title{
+.c-section-title{
     margin-top:137px ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
 }
 .review{
     display: flex;
@@ -139,4 +142,51 @@ main{
     color:rgba(128, 128, 128, 0.824);
     font-size:medium;
     font-weight: normal;
+}
+/* Form Section Design */
+.form-sec-title{
+    font-size: 97px;
+    font-weight: Bold;
+    color:#000000;
+    
+}
+.form-design{
+    display:flex;
+    gap: 115px;
+    margin-top: 150px;
+    margin-bottom: 71px;
+}
+.form-column{
+    width: 50%;
+}
+input[type="text"],input[type="email"],textarea{
+padding: 12px 12px;
+width: 100%;
+border:none;
+border-radius: 10px;
+box-sizing: border-box;
+background-color:white;
+color: #00000070;
+font-size: 20px;
+font-weight: 400px;
+display:block;
+margin-bottom:35px;
+}
+input[type="text"],input[type="email"]{
+height: 70px;
+}
+textarea{
+    resize: none;
+    height: 120px;
+}
+input[type="submit"]
+{
+    width: 100%;
+    height: 62px;
+}
+.label-design{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
