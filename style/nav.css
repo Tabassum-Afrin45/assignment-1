@@ -60,6 +60,7 @@ main{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    gap: 50px;
     margin-bottom: 150px;
 }
 .a-section-title{
@@ -73,7 +74,7 @@ main{
     color: #25243270;
     
 }
-.img-design{
+.img-design img{
     border-radius: 48px;
     height:400px;
 }
