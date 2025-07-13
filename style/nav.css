@@ -34,7 +34,7 @@ nav{
 
     background-color:#4E47FF;
     color:white;
-    font-size: 18px;
+    font-size: 16px;
     padding: 12px 36px;
     border-radius:10px;
     border-style: none;
@@ -73,13 +73,9 @@ main{
     color: #25243270;
     
 }
-.action-design{
-    width: 50%; 
- }
 .img-design{
     border-radius: 48px;
-    width:50%;
-    height:500px;
+    height:400px;
 }
 /* Productive Users Section Design */
 .P-users{
